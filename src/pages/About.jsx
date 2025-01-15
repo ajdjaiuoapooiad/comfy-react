@@ -1,8 +1,9 @@
+import Error from "./Error"
 
 
 const About = () => {
   return (
-    <div>About</div>
+    <Error  />
   )
 }
 
