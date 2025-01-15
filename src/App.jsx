@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import {About,Cart,Checkout,Error,HomeLayout,Landing,Login,Order,Products,Register,SingleProduct} from './pages'
 
 
@@ -47,10 +47,10 @@ const router = createBrowserRouter([
   },
 ])
 
-export default function App() {
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <RouterProvider router={router} />
   )
 }
+
+export default App;

@@ -1,6 +1,8 @@
-export const SingleProduct = () => {
-    return (
-      <div>SingleProduct</div>
-    )
-  }
-  
+
+const SingleProduct = () => {
+  return (
+    <div>SingleProduct</div>
+  )
+}
+
+export default SingleProduct

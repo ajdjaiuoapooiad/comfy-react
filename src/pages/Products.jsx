@@ -1,6 +1,8 @@
-export const Products = () => {
-    return (
-      <div>Products</div>
-    )
-  }
-  
+
+const Products = () => {
+  return (
+    <div>Products</div>
+  )
+}
+
+export default Products
