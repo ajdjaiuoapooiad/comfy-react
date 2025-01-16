@@ -2,6 +2,7 @@
 
 import { customFetch } from '../utils';
 import Hero from '../components/Hero';
+import FeaturedProducts from '../components/FeaturedProducts';
 const url = '/products?featured=true';
 
 
@@ -20,6 +21,7 @@ const Landing = () => {
   return (
     <>
       <Hero />
+      <FeaturedProducts />
     </>
   )
 }
