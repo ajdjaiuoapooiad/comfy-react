@@ -7,4 +7,5 @@ import {default as FeaturedProducts} from './FeaturedProducts';
 import {default as SectionTitle} from './SectionTitle';
 import {default as Filter} from './Filter';
 import {default as ProductsContainer} from './ProductsContainer';
-import {default as PaginationContainer} from './PaginationContainer';
+import {default as Loading} from './Loading';
+
