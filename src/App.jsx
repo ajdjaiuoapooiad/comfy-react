@@ -6,6 +6,7 @@ import {About,Cart,Checkout,Error,HomeLayout,Landing,Login,Order,Products,Regist
 
 // loaders
 import { loader as landingLoader } from './pages/Landing';
+import { loader as singleProductLoader } from './pages/SingleProduct';
 import ErrorElement from './components/ErrorElement';
 // actions
 
@@ -28,6 +29,8 @@ const router = createBrowserRouter([
       {
         path: 'products/:id',
         element: <SingleProduct />,
+        errorElement: <ErrorElement />,
+        loader: singleProductLoader,
       },
       {
         path: 'cart',
